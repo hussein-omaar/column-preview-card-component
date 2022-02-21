@@ -1,0 +1,160 @@
+*{
+
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container .cards-container{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+
+}
+
+
+
+
+.container .cards-container .card{
+
+    height: 400px;
+    width: 240px;
+    padding: 2.5rem;
+   
+   
+    
+  
+
+ 
+}
+.container .cards-container .card h1{
+    color:rgb(248, 233, 233);
+    text-transform: uppercase;
+
+ 
+}
+.container .cards-container .card p{
+
+    margin: 60px 0;
+    font-size: 14px;
+    color:  #808088;
+    
+
+ 
+}
+
+
+.container .cards-container .card button{
+
+
+    border-radius: 13px;
+    padding: 4px;
+    margin-left: 30px;
+
+
+ 
+}
+
+.container .cards-container .card  .first-btn{
+
+
+    color: #E28B2D;
+
+}
+
+.container .cards-container .card  .second-btn{
+
+
+    color: #016972;
+
+}
+
+
+
+.container .cards-container .card  .third-btn{
+
+
+    color: #00403F;
+
+}
+
+
+
+
+.container .cards-container .card button:hover{
+
+
+background-color: transparent;
+border: 1px solid #FFFFFF;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.container .cards-container .first{
+
+    background-color: #E28B2D;
+
+
+}
+
+
+
+.container .cards-container .second{
+
+background-color: #016972;
+
+
+}
+
+
+
+.container .cards-container .third{
+
+
+    background-color: #00403F;
+
+}
+
+
+@media  all and (max-width:375px) {
+    
+
+    .container .cards-container{
+
+
+        flex-direction: column;
+
+
+    }
+    .container .cards-container .card {
+        
+      
+        width: 240px;
+        padding: 2.5rem;
+    }
+    
+.container .cards-container .first{
+
+    margin-top: 746px;
+
+
+}
+
+    
+    
+}
